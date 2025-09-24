@@ -7,7 +7,7 @@ All types of sounds heard in the game: music, ambience, SFX, and voice lines, ar
 
 FMOD Studio is used to give the game an *extremely* flexible and dynamic audio system. With it and the very ~~sexy~~ splendid API that FMOD provides for us, we can control practically anything, like soundscapes, ambient transitions, spatialized audio, audio occulsion, and randomized variations of sound (using multi-instruments), that make the game feel much more alive and immersive (and spoopy :D).
 
-If you’re new to FMOD or the project, I'd recommend checking out the [FMOD Studio Documentation](https://www.fmod.com/resources/documentation-studio) as a reference, since although the beginning of trying to use FMOD's suite of tools may be a bit difficult at first, it is absolutely worth it. :)
+If you’re new to FMOD or the project, I'd recommend checking out the [FMOD Studio Documentation](https://www.fmod.com/resources/documentation-studio) as a reference, since although the beginning of trying to use FMOD's suite of tools may be a bit difficult at first, it is absolutely worth it.
 
 ## Getting Started
 
@@ -37,7 +37,7 @@ If you’re new to FMOD or the project, I'd recommend checking out the [FMOD Stu
 When working on audio:
 
 - **Test before committing** → Always play your event in isolation to confirm it works properly.  
-- **Stay organized** → Keep folder names descriptive (`SFX/Footsteps/Concrete` instead of `New Folder` or `TestEvent_106_Shite_Everywere10202030`).  
+- **Stay organized** → Keep folder names descriptive (`SFX/Footsteps/Concrete` instead of `New Folder` or `TestEvent_106_Shit_Absolutely_Everywere10202030`).  
 - **Reuse instead of duplicating when possible** → Use parameters, multi-instruments, or nested events when possible.  
 - **Clean up any unused assets** → Don’t leave behind dead events or placeholder stubs.  
 - **Consistency does kinda matter** → Follow existing naming conventions for events, parameters, and banks.
