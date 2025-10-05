@@ -152,9 +152,6 @@
 		<property name="nameOfPropertyBeingAutomated">
 			<value>pitch</value>
 		</property>
-		<relationship name="automationCurves">
-			<destination>{d7d3faed-5ac4-4cd6-afc8-9a5df85ff0da}</destination>
-		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{d9bba5e5-e3e5-4cd1-89cb-fed8236800f5}">
 		<relationship name="effects">
@@ -201,15 +198,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{e1da53e0-58ec-4664-89ad-78c2fd8c3b01}" />
-	<object class="AutomationCurve" id="{d7d3faed-5ac4-4cd6-afc8-9a5df85ff0da}">
-		<relationship name="parameter">
-			<destination>{422b5733-3c4d-429d-a047-a6c4ef6b5d31}</destination>
-		</relationship>
-		<relationship name="automationPoints">
-			<destination>{7cde07ce-5c29-41e7-a074-a131fcb53fdd}</destination>
-			<destination>{327332b6-4f1a-461d-8a87-4dc884514b45}</destination>
-		</relationship>
-	</object>
 	<object class="SpatialiserEffect" id="{cbd453f1-b606-4375-aa04-d1a7d919781a}">
 		<property name="maximumDistance">
 			<value>55</value>
@@ -221,27 +209,11 @@
 	<object class="MixerBusFader" id="{f3509687-ee12-4655-bd69-d757c26ecdb2}" />
 	<object class="SFXReverbEffect" id="{aae54265-2c2f-4ffc-824d-5d5fc7e9914d}">
 		<property name="decayTime">
-			<value>3100</value>
+			<value>1400</value>
 		</property>
 		<property name="wetLevel">
 			<value>0</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{fe14b5de-d1a7-4ef3-bfea-c1fabc196ff5}" />
-	<object class="AutomationPoint" id="{7cde07ce-5c29-41e7-a074-a131fcb53fdd}">
-		<property name="position">
-			<value>0.50123152709359609</value>
-		</property>
-		<property name="value">
-			<value>-24</value>
-		</property>
-	</object>
-	<object class="AutomationPoint" id="{327332b6-4f1a-461d-8a87-4dc884514b45}">
-		<property name="position">
-			<value>0.99958949096880134</value>
-		</property>
-		<property name="value">
-			<value>0</value>
-		</property>
-	</object>
 </objects>

@@ -131,9 +131,6 @@
 		<property name="nameOfPropertyBeingAutomated">
 			<value>pitch</value>
 		</property>
-		<relationship name="automationCurves">
-			<destination>{e5d4546f-0f00-4564-b50c-7e09aeb123c3}</destination>
-		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{763b94df-cc72-4bcb-85cc-4efec88d6404}">
 		<relationship name="effects">
@@ -160,15 +157,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{380875ed-542f-4f31-bc00-299288338548}" />
-	<object class="AutomationCurve" id="{e5d4546f-0f00-4564-b50c-7e09aeb123c3}">
-		<relationship name="parameter">
-			<destination>{422b5733-3c4d-429d-a047-a6c4ef6b5d31}</destination>
-		</relationship>
-		<relationship name="automationPoints">
-			<destination>{7cfc9154-c736-4547-b004-0f2afa76cb21}</destination>
-			<destination>{6e905e0a-e9c3-46a9-9501-6370bfcb6e6c}</destination>
-		</relationship>
-	</object>
 	<object class="LoudnessMeter" id="{3ad28fa5-99e6-4919-9a7c-b95aea529d06}">
 		<property name="loudnessTarget">
 			<value>-21</value>
@@ -231,20 +219,4 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{14da8726-f9eb-4f89-bc42-69a1c7c9378e}" />
-	<object class="AutomationPoint" id="{7cfc9154-c736-4547-b004-0f2afa76cb21}">
-		<property name="position">
-			<value>0.50082101806239743</value>
-		</property>
-		<property name="value">
-			<value>-24</value>
-		</property>
-	</object>
-	<object class="AutomationPoint" id="{6e905e0a-e9c3-46a9-9501-6370bfcb6e6c}">
-		<property name="position">
-			<value>0.99958949096880134</value>
-		</property>
-		<property name="value">
-			<value>0</value>
-		</property>
-	</object>
 </objects>
