@@ -46,6 +46,7 @@
 	<object class="MasterTrack" id="{24dd1e6a-db5d-454f-b99d-74153305ff85}">
 		<relationship name="automationTracks">
 			<destination>{22fbd488-b81a-4346-9a55-aba75ed8952f}</destination>
+			<destination>{2551bc70-fcd6-4a19-8567-9a18cc276755}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{2b0a1f31-f4c9-4a04-932a-73f3d39eed01}</destination>
@@ -59,7 +60,7 @@
 			<destination>{325916d6-23cd-4f4a-b6d5-40c76b5edee7}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{ac01a9d1-5a81-4b0a-ac29-6f27db2e1ed0}</destination>
+			<destination>{adef69f0-9ee2-4a43-934e-9baae16c8b94}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{4c841a78-b8bb-494c-94d3-26b201c95d0b}" />
@@ -103,6 +104,11 @@
 	<object class="AutomationTrack" id="{22fbd488-b81a-4346-9a55-aba75ed8952f}">
 		<relationship name="automator">
 			<destination>{666a938d-78b9-44e8-af00-c95f1c42804a}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationTrack" id="{2551bc70-fcd6-4a19-8567-9a18cc276755}">
+		<relationship name="automator">
+			<destination>{c70aea78-9748-4d6e-88a9-999fe280b627}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{8e144175-a1ef-450e-98eb-cb5ee4f9c577}">
@@ -155,6 +161,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{dcce6286-fe1d-45c4-8f7e-801920d6a2a0}">
 		<relationship name="effects">
+			<destination>{b0b33211-3fba-4774-9aac-58c89c061060}</destination>
 			<destination>{a43f537b-9cc6-465c-ad27-35b6fcc9a5ce}</destination>
 			<destination>{576e5b38-dd05-4617-9390-784f70dadb3a}</destination>
 			<destination>{48431f2d-d04d-4ae3-a598-bf2bdd53d7a3}</destination>
@@ -199,6 +206,14 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{90804798-e634-4e22-8c25-bb3231a195df}" />
+	<object class="ProxyEffect" id="{b0b33211-3fba-4774-9aac-58c89c061060}">
+		<property name="inputFormat">
+			<value>1</value>
+		</property>
+		<relationship name="preset">
+			<destination>{9610b18e-f1e1-4804-8656-7fc09d99b0c6}</destination>
+		</relationship>
+	</object>
 	<object class="SpatialiserEffect" id="{a43f537b-9cc6-465c-ad27-35b6fcc9a5ce}">
 		<property name="distanceRolloffType">
 			<value>2</value>
