@@ -2,10 +2,10 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{606bd0ab-50fc-4222-b704-2cc9598f9803}">
 		<property name="name">
-			<value>Footsteps</value>
+			<value>Player_Footsteps_Walk</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{35c5a0fa-4c9e-48f5-819d-78cd4f4e972d}</destination>
@@ -86,7 +86,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{0f3a9d2d-4f22-41b2-8ae0-4952be9e5eb7}">
 		<property name="volume">
-			<value>-29</value>
+			<value>-6.5</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{947a0f22-d7ec-46aa-b6c5-f4de93403647}</destination>
@@ -179,6 +179,7 @@
 	<object class="MixerBusPanner" id="{57db0542-b6b0-4b75-9add-20d908038d59}" />
 	<object class="MixerBusEffectChain" id="{947a0f22-d7ec-46aa-b6c5-f4de93403647}">
 		<relationship name="effects">
+			<destination>{64da1e00-2db4-43f0-af1b-fcd1afb5c340}</destination>
 			<destination>{71fec4ed-68cc-4287-b7c5-55d355615499}</destination>
 			<destination>{b6be467e-a12c-45ee-9708-fef9a6d33fcd}</destination>
 		</relationship>
@@ -335,12 +336,26 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{cb578d16-5d4c-4747-8d9c-f08753c9f848}" />
+	<object class="SpatialiserEffect" id="{64da1e00-2db4-43f0-af1b-fcd1afb5c340}">
+		<property name="distanceRolloffType">
+			<value>1</value>
+		</property>
+		<property name="maximumDistance">
+			<value>7.20000029</value>
+		</property>
+		<property name="overrideRange">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="SFXReverbEffect" id="{71fec4ed-68cc-4287-b7c5-55d355615499}">
 		<property name="decayTime">
-			<value>2300</value>
+			<value>900</value>
 		</property>
 		<property name="earlyDelay">
 			<value>7</value>
+		</property>
+		<property name="lowShelfGain">
+			<value>3</value>
 		</property>
 		<property name="wetLevel">
 			<value>-3</value>

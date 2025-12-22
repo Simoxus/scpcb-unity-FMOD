@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="EffectPreset" id="{9610b18e-f1e1-4804-8656-7fc09d99b0c6}">
 		<property name="name">
-			<value>Multiband EQ</value>
+			<value>Occlusion</value>
 		</property>
 		<relationship name="folder">
 			<destination>{fb8b80f2-93b2-484a-a089-11b774a43f14}</destination>

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{a11fbe84-baa7-47ee-b3dc-36e8066f3a02}">
 		<property name="name">
-			<value>3D_GateBreak</value>
+			<value>Env_GateBreak</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -92,9 +92,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{48e1f426-44f4-497c-b187-a565fb3e19e5}">
-		<property name="volume">
-			<value>-3.5</value>
-		</property>
 		<relationship name="automators">
 			<destination>{6097f5ee-dce0-47fd-ac9a-d29563e2ab7a}</destination>
 		</relationship>

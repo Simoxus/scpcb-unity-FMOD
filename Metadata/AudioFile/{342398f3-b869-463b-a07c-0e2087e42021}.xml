@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{342398f3-b869-463b-a07c-0e2087e42021}">
+		<property name="assetPath">
+			<value>SFX/Rooms/Light_Flicker2.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.55870748299319728</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{1c687daf-b876-4ac5-9b0c-e1fc361963f3}</destination>
+		</relationship>
+	</object>
+</objects>

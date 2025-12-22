@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{44d9edc2-66a9-4684-8760-9b8a01a3ddf7}">
 		<property name="name">
-			<value>3D_Gate</value>
+			<value>Env_Gate</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
@@ -62,7 +62,14 @@
 			<destination>{adef69f0-9ee2-4a43-934e-9baae16c8b94}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{5bc203fc-3cff-459b-b26d-70d4d519f042}" />
+	<object class="EventAutomatableProperties" id="{5bc203fc-3cff-459b-b26d-70d4d519f042}">
+		<property name="dopplerEnabled">
+			<value>true</value>
+		</property>
+		<property name="dopplerScale">
+			<value>10</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{7e3c8dd7-6ea8-4ddc-9518-789e49e26767}" />
 	<object class="GroupTrack" id="{60bd3bc8-a5f5-4f14-9168-ac9f6478e754}">
 		<relationship name="modules">
@@ -85,7 +92,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{8ec057d2-87b9-4709-82ff-3c7e5add6f2b}">
 		<property name="volume">
-			<value>-15.5</value>
+			<value>1.5</value>
 		</property>
 		<relationship name="automators">
 			<destination>{2c001f25-86d7-42b9-a5f6-14d4fb8c8e15}</destination>
@@ -209,7 +216,7 @@
 	<object class="MixerBusFader" id="{f3509687-ee12-4655-bd69-d757c26ecdb2}" />
 	<object class="SFXReverbEffect" id="{aae54265-2c2f-4ffc-824d-5d5fc7e9914d}">
 		<property name="decayTime">
-			<value>1400</value>
+			<value>500</value>
 		</property>
 		<property name="wetLevel">
 			<value>0</value>

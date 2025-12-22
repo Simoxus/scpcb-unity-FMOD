@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{ac61eb61-394d-41b3-984f-4e35a6d979ab}">
+		<property name="assetPath">
+			<value>SFX/Events/lcz_173_intro/ClassD/GettingChoked.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>4.3096041666666665</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{1c687daf-b876-4ac5-9b0c-e1fc361963f3}</destination>
+		</relationship>
+	</object>
+</objects>

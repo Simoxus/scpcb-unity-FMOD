@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{45710a83-0bf5-4eb3-b376-304b5e311ad6}">
+		<property name="assetPath">
+			<value>SFX/Ending/GateA/Franklin.ogg</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>10.576689342403627</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{1c687daf-b876-4ac5-9b0c-e1fc361963f3}</destination>
+		</relationship>
+	</object>
+</objects>

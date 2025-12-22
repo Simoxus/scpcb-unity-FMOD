@@ -2,13 +2,13 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{36fe7a5a-3739-45df-85a9-eefdde5965a5}">
 		<property name="name">
-			<value>UI_Credits</value>
+			<value>Mus_Credits</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
 		</property>
 		<relationship name="folder">
-			<destination>{66a9187b-fcf7-4c53-8560-0c8f11fd0d5d}</destination>
+			<destination>{7ae587b8-5a66-42a0-8de8-8d31c717d04e}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{67d4dd21-d817-452c-bcd8-6310ad68f382}</destination>
@@ -54,7 +54,7 @@
 			<destination>{676a4fa0-dcf6-4444-9b84-816a4b202b0f}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{c0eb25d6-0d0c-42f5-9100-e686c3c95c42}</destination>
+			<destination>{45075144-b8cb-415b-a922-7a07959cde43}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{81f1b7ef-2127-456e-a1d5-20e578a90af6}" />

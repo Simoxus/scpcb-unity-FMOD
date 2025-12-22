@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{cad38622-f362-411d-bd82-f44b6510e27a}">
 		<property name="name">
-			<value>3D_DoorOffice</value>
+			<value>Env_DoorOffice</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
@@ -81,9 +81,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{59f5bd97-beb2-4461-bce6-c58d10016d07}">
-		<property name="volume">
-			<value>-15</value>
-		</property>
 		<relationship name="effectChain">
 			<destination>{f8bb1179-c90a-4a38-9c28-c42edca170a8}</destination>
 		</relationship>

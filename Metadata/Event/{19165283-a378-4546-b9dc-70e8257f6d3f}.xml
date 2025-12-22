@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{19165283-a378-4546-b9dc-70e8257f6d3f}">
 		<property name="name">
-			<value>3D_Door</value>
+			<value>Env_Door</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
@@ -63,7 +63,14 @@
 			<destination>{adef69f0-9ee2-4a43-934e-9baae16c8b94}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{4c841a78-b8bb-494c-94d3-26b201c95d0b}" />
+	<object class="EventAutomatableProperties" id="{4c841a78-b8bb-494c-94d3-26b201c95d0b}">
+		<property name="dopplerEnabled">
+			<value>true</value>
+		</property>
+		<property name="dopplerScale">
+			<value>38</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{c47cae17-9e30-45ed-b4ac-fef61a9b69c6}" />
 	<object class="GroupTrack" id="{956c1071-ec2e-4697-ab48-baf3a02ec63a}">
 		<relationship name="modules">
@@ -86,7 +93,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{2b0a1f31-f4c9-4a04-932a-73f3d39eed01}">
 		<property name="volume">
-			<value>-14.5</value>
+			<value>2</value>
 		</property>
 		<relationship name="automators">
 			<destination>{666a938d-78b9-44e8-af00-c95f1c42804a}</destination>
@@ -232,6 +239,9 @@
 		</property>
 	</object>
 	<object class="SFXReverbEffect" id="{51577b08-c1a7-4ebe-abd5-c647538d1a97}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
 		<property name="decayTime">
 			<value>2700</value>
 		</property>

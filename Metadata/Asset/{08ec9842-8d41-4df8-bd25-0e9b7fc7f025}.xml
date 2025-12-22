@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EncodableAsset" id="{08ec9842-8d41-4df8-bd25-0e9b7fc7f025}">
+		<property name="assetPath">
+			<value>SFX/Events/lcz_173_intro/PA/4/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{1c687daf-b876-4ac5-9b0c-e1fc361963f3}</destination>
+		</relationship>
+	</object>
+</objects>

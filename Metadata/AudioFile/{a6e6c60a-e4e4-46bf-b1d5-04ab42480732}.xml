@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{a6e6c60a-e4e4-46bf-b1d5-04ab42480732}">
 		<property name="assetPath">
-			<value>SFX/SCP/106_Sinkhole.ogg</value>
+			<value>SFX/SCP/106/106_Sinkhole.ogg</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

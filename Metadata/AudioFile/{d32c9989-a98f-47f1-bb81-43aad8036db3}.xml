@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{d32c9989-a98f-47f1-bb81-43aad8036db3}">
 		<property name="assetPath">
-			<value>SFX/Interact/Buttons/HandleTurn.wav</value>
+			<value>SFX/Interactable/Buttons/Handle_Turn.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>192</value>

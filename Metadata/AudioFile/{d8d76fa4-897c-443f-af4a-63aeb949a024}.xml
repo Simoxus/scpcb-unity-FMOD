@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{d8d76fa4-897c-443f-af4a-63aeb949a024}">
 		<property name="assetPath">
-			<value>SFX/Horror/The Sculpture Appearance.wav</value>
+			<value>SFX/General/YOU_CAN'T_HIDE.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

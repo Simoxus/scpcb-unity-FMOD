@@ -2,13 +2,13 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{dfb7bdb5-b610-4759-a37b-6ad0fd4ef80e}">
 		<property name="name">
-			<value>UI_MainMenu</value>
+			<value>Mus_MainMenu</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
 		</property>
 		<relationship name="folder">
-			<destination>{66a9187b-fcf7-4c53-8560-0c8f11fd0d5d}</destination>
+			<destination>{7ae587b8-5a66-42a0-8de8-8d31c717d04e}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{52b2aeec-12fa-40b5-bf98-7f03d4fe9c96}</destination>
@@ -54,7 +54,7 @@
 			<destination>{c5715e84-0f8e-4093-a459-49319886d51d}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{c0eb25d6-0d0c-42f5-9100-e686c3c95c42}</destination>
+			<destination>{45075144-b8cb-415b-a922-7a07959cde43}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{9dfc3a54-ed45-4203-a4b0-1cab561b51b9}" />

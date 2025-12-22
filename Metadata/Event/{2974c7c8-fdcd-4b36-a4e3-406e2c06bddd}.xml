@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{2974c7c8-fdcd-4b36-a4e3-406e2c06bddd}">
 		<property name="name">
-			<value>3D_Button</value>
+			<value>Env_Button</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
@@ -75,9 +75,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{cedc777d-d009-4898-ba96-ef216adba3ef}">
-		<property name="volume">
-			<value>-20</value>
-		</property>
 		<relationship name="automators">
 			<destination>{7c6eeb8f-e211-42b4-bbf0-f13b0fa857e7}</destination>
 		</relationship>
@@ -134,7 +131,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{51fa5a8e-1a01-40e8-a91c-917865e34d16}">
 		<relationship name="effects">
-			<destination>{dd9a5e20-f390-4a6f-a95f-74d39bfa4f89}</destination>
+			<destination>{d4001fe5-dc0a-4c5c-a615-cc4c01e8bfe7}</destination>
 			<destination>{5d04b7d9-f9d5-44d5-a010-c0aa75cb4f31}</destination>
 		</relationship>
 	</object>
@@ -147,15 +144,12 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{b8b9b8bd-b8c6-4656-9685-17991cac5296}" />
-	<object class="SpatialiserEffect" id="{dd9a5e20-f390-4a6f-a95f-74d39bfa4f89}">
+	<object class="SpatialiserEffect" id="{d4001fe5-dc0a-4c5c-a615-cc4c01e8bfe7}">
 		<property name="maximumDistance">
-			<value>40</value>
+			<value>10</value>
 		</property>
 		<property name="overrideRange">
 			<value>true</value>
-		</property>
-		<property name="extentMode">
-			<value>1</value>
 		</property>
 		<property name="soundSize">
 			<value>1.20000005</value>

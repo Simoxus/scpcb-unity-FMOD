@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{c56af12c-6d37-42ce-9f4b-e93fbba51017}">
 		<property name="name">
-			<value>106_SinkholeFall</value>
+			<value>Env_106_SinkholeFall</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -73,7 +73,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{9eb75d40-174c-4163-97d2-5240c49ee467}">
 		<property name="volume">
-			<value>-15.5</value>
+			<value>-14</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{fdf9bd03-2b4e-4c77-a93b-36bd49139574}</destination>
@@ -129,7 +129,7 @@
 	<object class="MixerBusPanner" id="{ab1e55f6-2a5f-4d3b-ba0d-25036bbbbd81}" />
 	<object class="SFXReverbEffect" id="{7ac3317c-c4e7-4b40-96f9-fafb7baa6245}">
 		<property name="decayTime">
-			<value>19500</value>
+			<value>20000</value>
 		</property>
 		<property name="wetLevel">
 			<value>-15.5</value>
