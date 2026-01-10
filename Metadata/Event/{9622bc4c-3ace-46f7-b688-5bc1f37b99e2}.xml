@@ -65,6 +65,9 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{6fb5e51f-d4c2-4bef-aebc-8f57110bc102}">
+		<property name="priority">
+			<value>1</value>
+		</property>
 		<property name="maximumDistance">
 			<value>35</value>
 		</property>
@@ -86,7 +89,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{ba606f66-c69e-4900-b20d-309fc4616df5}">
 		<property name="volume">
-			<value>-6.5</value>
+			<value>-12</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{73e1187e-ef58-462e-83a3-5331f0ce8a02}</destination>
@@ -346,8 +349,11 @@
 	</object>
 	<object class="MixerBusFader" id="{c3e7ce98-1896-4fc6-bb40-e9ba815abf5d}" />
 	<object class="SpatialiserEffect" id="{e6f19b07-11b0-4e64-afbf-fd0b16236673}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
 		<property name="distanceRolloffType">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<property name="maximumDistance">
 			<value>7.20000029</value>
@@ -358,7 +364,7 @@
 	</object>
 	<object class="SFXReverbEffect" id="{3b23473c-23e0-4579-aa6a-89f997c12a41}">
 		<property name="decayTime">
-			<value>900</value>
+			<value>1000</value>
 		</property>
 		<property name="earlyDelay">
 			<value>7</value>
