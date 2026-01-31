@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{569120ee-e137-4631-9623-9944da65c6cc}">
 		<property name="assetPath">
-			<value>SFX/Events/lcz_storage/Escape2.ogg</value>
+			<value>SFX/Events/lcz-storage/Escape2.ogg</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

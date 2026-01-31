@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{0833956d-eb03-4c9f-b734-dc4c7f43dad0}">
 		<property name="name">
-			<value>Env_Alarm_Airlock</value>
+			<value>Alarm-Airlock</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
@@ -117,7 +117,6 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{b829e612-ee65-4295-bfd0-97cf969273b1}">
 		<relationship name="effects">
-			<destination>{29bb23cd-3be6-402e-b8e5-b815bc4f9f72}</destination>
 			<destination>{f13d7748-ed45-45a5-9545-1d1f5a5322e1}</destination>
 			<destination>{1fbe27a3-42a3-4e34-9f5b-51477db0e87d}</destination>
 		</relationship>
@@ -131,14 +130,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{ba7121af-7b90-43ad-b110-6c0c05ad3bf5}" />
-	<object class="ProxyEffect" id="{29bb23cd-3be6-402e-b8e5-b815bc4f9f72}">
-		<property name="inputFormat">
-			<value>1</value>
-		</property>
-		<relationship name="preset">
-			<destination>{9610b18e-f1e1-4804-8656-7fc09d99b0c6}</destination>
-		</relationship>
-	</object>
 	<object class="SpatialiserEffect" id="{f13d7748-ed45-45a5-9545-1d1f5a5322e1}">
 		<property name="maximumDistance">
 			<value>85</value>

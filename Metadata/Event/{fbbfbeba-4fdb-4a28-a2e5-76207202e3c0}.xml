@@ -2,13 +2,13 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{fbbfbeba-4fdb-4a28-a2e5-76207202e3c0}">
 		<property name="name">
-			<value>Player_Tired</value>
+			<value>Exhausted</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
 		</property>
 		<relationship name="folder">
-			<destination>{35c5a0fa-4c9e-48f5-819d-78cd4f4e972d}</destination>
+			<destination>{7fd92e24-44d8-4587-92fc-f13c9432c94c}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{c5d9501a-5116-448f-92eb-b1f6ced14665}</destination>
@@ -76,9 +76,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{35079ad9-fd43-497f-b9bd-3b6983544a7e}">
-		<property name="volume">
-			<value>-6</value>
-		</property>
 		<relationship name="effectChain">
 			<destination>{efa39c9e-65c9-4ff3-965b-3fde789c232d}</destination>
 		</relationship>
@@ -107,6 +104,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{8db255d2-0e90-431b-bb32-e805852d8c00}">
+		<property name="volume">
+			<value>6</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -122,7 +122,6 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{efa39c9e-65c9-4ff3-965b-3fde789c232d}">
 		<relationship name="effects">
-			<destination>{3e9007a8-ca7c-4eff-b18b-db3da76f167a}</destination>
 			<destination>{681089c4-d567-40ab-aca2-84b3e3644fcf}</destination>
 		</relationship>
 	</object>
@@ -154,11 +153,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{efe819a5-0fb2-4bd5-a7ff-76241c831254}" />
-	<object class="SFXReverbEffect" id="{3e9007a8-ca7c-4eff-b18b-db3da76f167a}">
-		<property name="decayTime">
-			<value>600</value>
-		</property>
-	</object>
 	<object class="MixerBusFader" id="{681089c4-d567-40ab-aca2-84b3e3644fcf}" />
 	<object class="MixerBusFader" id="{c18c834e-5ab5-4cdc-9136-fc3b36a75778}" />
 </objects>

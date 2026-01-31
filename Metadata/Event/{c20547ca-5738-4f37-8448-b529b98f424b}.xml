@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{c20547ca-5738-4f37-8448-b529b98f424b}">
 		<property name="name">
-			<value>Env_Alarm_Airlock_Broken</value>
+			<value>Alarm-Airlock-Broken</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
@@ -134,7 +134,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{2f14934b-6de6-4d35-a20a-78343abe59a8}">
 		<relationship name="effects">
-			<destination>{193c3468-0528-424d-90e3-0b4fc6d6d5f8}</destination>
+			<destination>{b776928c-77cd-4456-86c1-10c5382b6a22}</destination>
 			<destination>{87ed842f-94ee-4d1c-84b3-1002acb89904}</destination>
 			<destination>{fe8dde69-ecba-47e5-b9fb-31be219c97ab}</destination>
 		</relationship>
@@ -148,12 +148,12 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{8a615d6d-a3f0-457b-964d-4e4b4192f724}" />
-	<object class="ProxyEffect" id="{193c3468-0528-424d-90e3-0b4fc6d6d5f8}">
+	<object class="ProxyEffect" id="{b776928c-77cd-4456-86c1-10c5382b6a22}">
 		<property name="inputFormat">
 			<value>1</value>
 		</property>
 		<relationship name="preset">
-			<destination>{9610b18e-f1e1-4804-8656-7fc09d99b0c6}</destination>
+			<destination>{5492afeb-87ff-4309-911b-2d768f9de009}</destination>
 		</relationship>
 	</object>
 	<object class="SpatialiserEffect" id="{87ed842f-94ee-4d1c-84b3-1002acb89904}">

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="EncodableAsset" id="{c1dd5b94-5af2-4867-b74a-52d629b3b119}">
 		<property name="assetPath">
-			<value>SFX/Events/lcz_173_intro/ClassD/</value>
+			<value>SFX/Events/cont-lcz-173-bright/ClassD/</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{1c687daf-b876-4ac5-9b0c-e1fc361963f3}</destination>

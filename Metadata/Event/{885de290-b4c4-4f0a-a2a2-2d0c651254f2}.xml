@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{885de290-b4c4-4f0a-a2a2-2d0c651254f2}">
 		<property name="name">
-			<value>Env_ButtonKeypad</value>
+			<value>Button-Keypad</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
@@ -84,9 +84,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{c551da7b-6061-42c6-9995-becd03995a78}">
-		<property name="volume">
-			<value>-5.5</value>
-		</property>
 		<relationship name="automators">
 			<destination>{a4bf63d2-0bf2-4134-8dcc-dfb1705a22e4}</destination>
 		</relationship>
@@ -125,6 +122,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{c1bd51fa-ca41-44b5-885e-c6b794922d01}">
+		<property name="volume">
+			<value>8.5</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -159,14 +159,8 @@
 	</object>
 	<object class="MixerBusPanner" id="{c9e65fa8-baac-4692-a6b0-4440c75cfd0d}" />
 	<object class="SpatialiserEffect" id="{bd14af3b-7b9a-49cc-8d71-4df3157a1f06}">
-		<property name="distanceRolloffType">
-			<value>2</value>
-		</property>
 		<property name="maximumDistance">
 			<value>40</value>
-		</property>
-		<property name="overrideRange">
-			<value>true</value>
 		</property>
 		<property name="extentMode">
 			<value>1</value>

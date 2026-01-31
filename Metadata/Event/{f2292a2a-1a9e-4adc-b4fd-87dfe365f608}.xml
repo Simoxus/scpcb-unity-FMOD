@@ -2,13 +2,13 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{f2292a2a-1a9e-4adc-b4fd-87dfe365f608}">
 		<property name="name">
-			<value>Fall_Gate</value>
+			<value>Fall</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
 		</property>
 		<relationship name="folder">
-			<destination>{4a399a9c-e2e2-4af9-9ad9-58bb704382c5}</destination>
+			<destination>{e9e0a367-8aef-454e-937f-753ef97266f8}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{082d2929-2cea-4141-a598-643d32770cb7}</destination>
@@ -126,9 +126,8 @@
 	<object class="MixerBusEffectChain" id="{fd107737-f0a5-431d-9e38-e8fd841bfd36}">
 		<relationship name="effects">
 			<destination>{85097e11-dc37-4a7a-b927-48ad4f3b9331}</destination>
-			<destination>{70ab2136-deae-4f5b-857d-e2a0c98b4989}</destination>
-			<destination>{0bf7e8c6-7c55-4581-add3-28ce87c620b4}</destination>
 			<destination>{c4be3a34-d0d6-4597-a4ff-032456483bf9}</destination>
+			<destination>{0bf7e8c6-7c55-4581-add3-28ce87c620b4}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{5f334067-6fda-4150-82a4-d9b8fcb276d2}" />
@@ -152,14 +151,7 @@
 			<value>2</value>
 		</property>
 	</object>
-	<object class="ProxyEffect" id="{70ab2136-deae-4f5b-857d-e2a0c98b4989}">
-		<property name="inputFormat">
-			<value>2</value>
-		</property>
-		<relationship name="preset">
-			<destination>{9610b18e-f1e1-4804-8656-7fc09d99b0c6}</destination>
-		</relationship>
-	</object>
+	<object class="MixerBusFader" id="{c4be3a34-d0d6-4597-a4ff-032456483bf9}" />
 	<object class="SFXReverbEffect" id="{0bf7e8c6-7c55-4581-add3-28ce87c620b4}">
 		<property name="decayTime">
 			<value>4600</value>
@@ -171,7 +163,6 @@
 			<value>-22</value>
 		</property>
 	</object>
-	<object class="MixerBusFader" id="{c4be3a34-d0d6-4597-a4ff-032456483bf9}" />
 	<object class="AutomationPoint" id="{65e38e85-fffe-47e7-b290-8d6efbc3a5ea}">
 		<property name="position">
 			<value>0.66000000000000003</value>

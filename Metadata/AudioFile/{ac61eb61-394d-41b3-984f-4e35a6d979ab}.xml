@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{ac61eb61-394d-41b3-984f-4e35a6d979ab}">
 		<property name="assetPath">
-			<value>SFX/Events/lcz_173_intro/ClassD/GettingChoked.wav</value>
+			<value>SFX/Events/cont-lcz-173-bright/ClassD/GettingChoked.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

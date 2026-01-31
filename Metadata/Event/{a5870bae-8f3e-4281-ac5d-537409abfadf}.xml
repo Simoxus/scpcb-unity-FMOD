@@ -5,7 +5,7 @@
 			<value>Janitor_Arnoldass</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{67637f3d-27b9-4107-acf4-feebb6bee1bc}</destination>
@@ -79,10 +79,19 @@
 	<object class="MixerBusPanner" id="{3fb41e7b-8033-48e1-bb5a-3f028adfaf4e}" />
 	<object class="MixerBusEffectChain" id="{d803a64a-4c22-4ca2-b061-687674d199c0}">
 		<relationship name="effects">
+			<destination>{cfee7917-1fb2-463c-af1b-c802fdade346}</destination>
 			<destination>{d83b239d-a987-4b6e-9967-e10e53dcf1eb}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{63749062-abae-4ad8-9f36-a0da394fda2d}" />
 	<object class="MixerBusFader" id="{a2f02f6b-1b74-4b42-9f1c-528b87b5d66c}" />
+	<object class="SpatialiserEffect" id="{cfee7917-1fb2-463c-af1b-c802fdade346}">
+		<property name="maximumDistance">
+			<value>55</value>
+		</property>
+		<property name="overrideRange">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{d83b239d-a987-4b6e-9967-e10e53dcf1eb}" />
 </objects>

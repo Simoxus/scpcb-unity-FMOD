@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{36fe7a5a-3739-45df-85a9-eefdde5965a5}">
 		<property name="name">
-			<value>Mus_Credits</value>
+			<value>Credits</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -107,9 +107,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{4e2e61dc-fb6d-460f-8260-ad9728030b59}">
-		<property name="volume">
-			<value>-2.5</value>
-		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -175,12 +172,12 @@
 			<value>0</value>
 		</property>
 		<property name="curveShape">
-			<value>0.155178994</value>
+			<value>0.618999481</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{a5f15462-5f32-422d-bdde-c4212ddb46fd}">
 		<property name="position">
-			<value>12</value>
+			<value>4</value>
 		</property>
 		<property name="value">
 			<value>1</value>

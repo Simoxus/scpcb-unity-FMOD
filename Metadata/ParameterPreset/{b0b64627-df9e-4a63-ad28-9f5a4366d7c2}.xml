@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{b0b64627-df9e-4a63-ad28-9f5a4366d7c2}">
+		<property name="color">
+			<value>Blue</value>
+		</property>
+		<property name="name">
+			<value>Static Occlusion</value>
+		</property>
+		<relationship name="folder">
+			<destination>{4bd21f1f-bc98-4f7d-8632-b30c100f78c7}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{e9767405-bf39-418c-9f2e-4f83381dcaa9}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{e9767405-bf39-418c-9f2e-4f83381dcaa9}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

@@ -2,13 +2,13 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{78f17e49-6871-4267-8b8a-19811fb81326}">
 		<property name="name">
-			<value>Env_Announce_Lockdown</value>
+			<value>Alarm-Announ-Lockdown</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
 		</property>
 		<relationship name="folder">
-			<destination>{f096442a-b324-487c-975f-a2ee4a07203a}</destination>
+			<destination>{7c0c3d3b-4b4d-4356-a4e0-02d31cbe0c6e}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{4be9caa7-3dca-4ceb-a2f8-039bdf056843}</destination>
@@ -80,9 +80,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{9420514c-2712-4ae2-8f72-dfcaafbee2cd}">
-		<property name="volume">
-			<value>-3.5</value>
-		</property>
 		<relationship name="effectChain">
 			<destination>{ac531c97-9796-44d3-ae63-3cc7ca5a9e0b}</destination>
 		</relationship>

@@ -2,13 +2,13 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{397a5529-1776-4b17-aa22-4fe2b5b65ff7}">
 		<property name="name">
-			<value>Mus_HeavyContainment</value>
+			<value>HeavyContainment</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
 		</property>
 		<relationship name="folder">
-			<destination>{7ae587b8-5a66-42a0-8de8-8d31c717d04e}</destination>
+			<destination>{2b866a45-40d0-4d88-b83c-0c4b245abe2f}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{281db706-0551-4354-acff-7d95f4925e9f}</destination>
@@ -78,9 +78,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{5e9bd25d-ffb5-4915-af86-10c5c8aff9be}">
-		<property name="volume">
-			<value>-7</value>
-		</property>
 		<relationship name="automators">
 			<destination>{09e64e19-2865-4b4f-872b-4b94fc5709e9}</destination>
 		</relationship>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{4f897f14-7b26-4efb-837f-7e65e26d8429}">
+		<property name="name">
+			<value>Deaf</value>
+		</property>
+		<relationship name="folder">
+			<destination>{4bd21f1f-bc98-4f7d-8632-b30c100f78c7}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{aa5e4ee2-a65e-4c3d-aa5b-259b2b74372d}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{aa5e4ee2-a65e-4c3d-aa5b-259b2b74372d}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

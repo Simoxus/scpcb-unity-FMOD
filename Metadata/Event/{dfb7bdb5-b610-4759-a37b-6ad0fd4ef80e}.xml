@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{dfb7bdb5-b610-4759-a37b-6ad0fd4ef80e}">
 		<property name="name">
-			<value>Mus_MainMenu</value>
+			<value>Menu</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -107,9 +107,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{3d47a9d9-540f-4210-aac6-5bf719e60afb}">
-		<property name="volume">
-			<value>-5.5</value>
-		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>

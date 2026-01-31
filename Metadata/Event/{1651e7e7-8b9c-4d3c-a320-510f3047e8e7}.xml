@@ -2,13 +2,13 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{1651e7e7-8b9c-4d3c-a320-510f3047e8e7}">
 		<property name="name">
-			<value>079Speech</value>
+			<value>Speech</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
 		</property>
 		<relationship name="folder">
-			<destination>{8d2655d0-dbf2-4059-83e8-74a9639aae00}</destination>
+			<destination>{8e1fe1df-fd3d-4027-a848-3fbe8fa6bb78}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{23e66d21-c818-4f47-a0cf-c3a46ac1b3ab}</destination>
@@ -33,6 +33,7 @@
 		</relationship>
 		<relationship name="banks">
 			<destination>{2563da79-f8a2-4ce5-8d6c-1ccde63d1cc2}</destination>
+			<destination>{ae426d8d-17c4-41ec-abd1-10b894b9482a}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{23e66d21-c818-4f47-a0cf-c3a46ac1b3ab}">
@@ -112,7 +113,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{fa6e3306-e00e-496e-ba00-b84b4ba31a7e}">
 		<property name="volume">
-			<value>-5</value>
+			<value>6.5</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -134,8 +135,8 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{763b94df-cc72-4bcb-85cc-4efec88d6404}">
 		<relationship name="effects">
-			<destination>{3ad28fa5-99e6-4919-9a7c-b95aea529d06}</destination>
 			<destination>{2fb53d2c-b481-4646-83d2-ff552e66592a}</destination>
+			<destination>{3ad28fa5-99e6-4919-9a7c-b95aea529d06}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{62f96031-1310-417d-98cd-eee2f7a56519}" />
@@ -157,12 +158,12 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{380875ed-542f-4f31-bc00-299288338548}" />
+	<object class="MixerBusFader" id="{2fb53d2c-b481-4646-83d2-ff552e66592a}" />
 	<object class="LoudnessMeter" id="{3ad28fa5-99e6-4919-9a7c-b95aea529d06}">
 		<property name="loudnessTarget">
 			<value>-21</value>
 		</property>
 	</object>
-	<object class="MixerBusFader" id="{2fb53d2c-b481-4646-83d2-ff552e66592a}" />
 	<object class="AutomationPoint" id="{4863933c-70d0-4523-879b-2b758788e5d9}">
 		<property name="position">
 			<value>53</value>

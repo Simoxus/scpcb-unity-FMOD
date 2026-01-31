@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{1a800345-65d2-4e1a-9bcf-ac4f82ff6c38}">
 		<property name="name">
-			<value>Env_DoorForced</value>
+			<value>State-Forced-079</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
@@ -67,7 +67,6 @@
 	<object class="GroupTrack" id="{a0cefa16-0d92-4df9-984f-31fa7bd9811d}">
 		<relationship name="modules">
 			<destination>{efc59050-12b4-4616-940b-ba2479d14ac4}</destination>
-			<destination>{c45a74e6-5b6e-443e-a458-8f0b4c760ffa}</destination>
 			<destination>{568d1c12-b4b3-4ec3-863a-752b99c1fe41}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
@@ -78,7 +77,6 @@
 	<object class="ParameterProxy" id="{24dc4bc1-c324-4375-86d3-e7c221beb822}">
 		<relationship name="modules">
 			<destination>{efc59050-12b4-4616-940b-ba2479d14ac4}</destination>
-			<destination>{c45a74e6-5b6e-443e-a458-8f0b4c760ffa}</destination>
 			<destination>{568d1c12-b4b3-4ec3-863a-752b99c1fe41}</destination>
 		</relationship>
 		<relationship name="preset">
@@ -111,21 +109,13 @@
 	</object>
 	<object class="MixerBusPanner" id="{2fec42fa-f710-4c5c-b675-3760328cfc45}" />
 	<object class="SingleSound" id="{efc59050-12b4-4616-940b-ba2479d14ac4}">
-		<property name="start">
-			<value>1</value>
-		</property>
 		<relationship name="audioFile">
 			<destination>{2bbdf21a-a7e5-40aa-ac4d-e4b6ffea2953}</destination>
 		</relationship>
 	</object>
-	<object class="SingleSound" id="{c45a74e6-5b6e-443e-a458-8f0b4c760ffa}">
-		<relationship name="audioFile">
-			<destination>{5177cbe2-4af5-4e00-9598-32976f90e997}</destination>
-		</relationship>
-	</object>
 	<object class="SingleSound" id="{568d1c12-b4b3-4ec3-863a-752b99c1fe41}">
 		<property name="start">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{539a07e9-f578-4478-9740-761d237a417e}</destination>
@@ -152,7 +142,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{3632049c-2285-4acd-ad4e-c70b72429c87}">
 		<relationship name="effects">
-			<destination>{86e7f31a-325d-40c5-a520-b216d56d3961}</destination>
+			<destination>{13f32e25-30c8-4994-bce9-7d6d5e18ab7d}</destination>
 			<destination>{350a57b5-6070-4c23-934d-d72b906ff829}</destination>
 			<destination>{b4bd3729-e1b1-4847-8abe-a9edc40f3891}</destination>
 			<destination>{77c07c35-07f6-4fa1-8fd3-668207ba1033}</destination>
@@ -167,17 +157,17 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{cb2eb446-78ac-4373-88c5-de8077c3f859}" />
-	<object class="ProxyEffect" id="{86e7f31a-325d-40c5-a520-b216d56d3961}">
+	<object class="ProxyEffect" id="{13f32e25-30c8-4994-bce9-7d6d5e18ab7d}">
 		<property name="inputFormat">
 			<value>1</value>
 		</property>
 		<relationship name="preset">
-			<destination>{9610b18e-f1e1-4804-8656-7fc09d99b0c6}</destination>
+			<destination>{5492afeb-87ff-4309-911b-2d768f9de009}</destination>
 		</relationship>
 	</object>
 	<object class="SpatialiserEffect" id="{350a57b5-6070-4c23-934d-d72b906ff829}">
 		<property name="distanceRolloffType">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<property name="maximumDistance">
 			<value>55</value>

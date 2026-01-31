@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{5ee39a6d-3c9a-4247-a527-e363627faa1c}">
 		<property name="name">
-			<value>UI_PressFail</value>
+			<value>Press-Fail</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>

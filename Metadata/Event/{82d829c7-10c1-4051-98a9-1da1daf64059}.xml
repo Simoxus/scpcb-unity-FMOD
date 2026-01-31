@@ -2,10 +2,10 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{82d829c7-10c1-4051-98a9-1da1daf64059}">
 		<property name="name">
-			<value>Env_DoorBreak</value>
+			<value>Break</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{134b458b-805f-4a60-9666-bf4fb0a7ffd4}</destination>
@@ -142,7 +142,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{2a47cd36-69e7-4dcc-99f0-609f541897d8}">
 		<property name="volume">
-			<value>-11</value>
+			<value>4</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -173,7 +173,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{7175a3c1-7150-4806-ac60-5900bcc5e76a}">
 		<property name="volume">
-			<value>-11</value>
+			<value>4</value>
 		</property>
 		<property name="name">
 			<value>Audio 2</value>
@@ -201,7 +201,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{6623c80d-8b76-4016-9c2b-31ae6d677954}">
 		<property name="volume">
-			<value>-13</value>
+			<value>2.5</value>
 		</property>
 		<property name="name">
 			<value>Audio 3</value>
@@ -223,8 +223,8 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{cc9567f6-99ad-4cff-81d9-37e864207767}">
 		<relationship name="effects">
-			<destination>{453e6275-5b82-42cb-a6fc-95092a47a727}</destination>
-			<destination>{6f8c67f2-ccbf-474e-b57c-380dfe55e0d5}</destination>
+			<destination>{28fb9dc1-0652-49ee-a03c-5285cb68ddac}</destination>
+			<destination>{9cb66eda-93cd-4b56-b451-2d3faf0a02f8}</destination>
 			<destination>{eeb93893-5288-4710-a70c-a9bf9bab8849}</destination>
 			<destination>{ea7e9820-c756-42b6-aac8-c61c2230de5f}</destination>
 		</relationship>
@@ -273,20 +273,17 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{aea64c98-1457-4bb0-8bb7-8aa75cf25a99}" />
-	<object class="ProxyEffect" id="{453e6275-5b82-42cb-a6fc-95092a47a727}">
+	<object class="ProxyEffect" id="{28fb9dc1-0652-49ee-a03c-5285cb68ddac}">
 		<property name="inputFormat">
 			<value>1</value>
 		</property>
 		<relationship name="preset">
-			<destination>{9610b18e-f1e1-4804-8656-7fc09d99b0c6}</destination>
+			<destination>{5492afeb-87ff-4309-911b-2d768f9de009}</destination>
 		</relationship>
 	</object>
-	<object class="ObjectSpatialiserEffect" id="{6f8c67f2-ccbf-474e-b57c-380dfe55e0d5}">
+	<object class="SpatialiserEffect" id="{9cb66eda-93cd-4b56-b451-2d3faf0a02f8}">
 		<property name="distanceRolloffType">
 			<value>1</value>
-		</property>
-		<property name="maximumDistance">
-			<value>30</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{eeb93893-5288-4710-a70c-a9bf9bab8849}" />

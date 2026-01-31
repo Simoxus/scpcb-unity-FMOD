@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{111f0a04-8fc8-4145-9837-2e85bff30095}">
 		<property name="assetPath">
-			<value>SFX/Character/Agent_Ulgrin/ExitCell.ogg</value>
+			<value>SFX/Character/Guards/Ulgrin/ExitCell.ogg</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

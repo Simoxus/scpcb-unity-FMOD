@@ -2,13 +2,13 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{f2de03d3-b483-42c6-84c4-cbbc411f31eb}">
 		<property name="name">
-			<value>Env_106_Sinkhole</value>
+			<value>Sinkhole</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
 		</property>
 		<relationship name="folder">
-			<destination>{f096442a-b324-487c-975f-a2ee4a07203a}</destination>
+			<destination>{b70e599b-0f7b-41b1-bab5-19944ce257af}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{1e396fac-4e78-4194-9286-1f585b169d47}</destination>

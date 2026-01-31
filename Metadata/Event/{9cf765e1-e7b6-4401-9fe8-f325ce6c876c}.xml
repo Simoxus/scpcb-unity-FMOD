@@ -5,7 +5,7 @@
 			<value>Agent_Balcony</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{67637f3d-27b9-4107-acf4-feebb6bee1bc}</destination>
@@ -79,10 +79,19 @@
 	<object class="MixerBusPanner" id="{c6d2ab1e-f19e-455e-90cc-32b58e88e1a6}" />
 	<object class="MixerBusEffectChain" id="{2d5f9a3c-3a0b-4b59-8122-e4dbba05da3c}">
 		<relationship name="effects">
+			<destination>{65c25b4c-2a03-4063-9b0e-5cd7373b4027}</destination>
 			<destination>{fe8961f5-e558-4104-b6b8-4c667d486238}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{6ad2f4b5-6222-41cf-b8d3-68a812b1db25}" />
 	<object class="MixerBusFader" id="{010f4c96-f82b-4a7d-b55d-c64cd3ab86ad}" />
+	<object class="SpatialiserEffect" id="{65c25b4c-2a03-4063-9b0e-5cd7373b4027}">
+		<property name="maximumDistance">
+			<value>55</value>
+		</property>
+		<property name="overrideRange">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{fe8961f5-e558-4104-b6b8-4c667d486238}" />
 </objects>

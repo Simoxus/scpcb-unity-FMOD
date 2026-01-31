@@ -5,7 +5,7 @@
 			<value>Apache</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{67637f3d-27b9-4107-acf4-feebb6bee1bc}</destination>
@@ -79,10 +79,19 @@
 	<object class="MixerBusPanner" id="{94030150-5a01-46df-8d29-1be60cc9d929}" />
 	<object class="MixerBusEffectChain" id="{10cdbcba-8f7c-4da9-989e-23933c46af70}">
 		<relationship name="effects">
+			<destination>{66ae0b97-b20e-40f2-ab01-61dab4b6821b}</destination>
 			<destination>{c26d51ad-6f8b-4c7f-bde8-33eaf22583d3}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{a721af9a-1b30-4aea-bdc6-d6ec30e0e148}" />
 	<object class="MixerBusFader" id="{45557821-6740-42d0-a2bd-9addb1d69281}" />
+	<object class="SpatialiserEffect" id="{66ae0b97-b20e-40f2-ab01-61dab4b6821b}">
+		<property name="maximumDistance">
+			<value>55</value>
+		</property>
+		<property name="overrideRange">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{c26d51ad-6f8b-4c7f-bde8-33eaf22583d3}" />
 </objects>

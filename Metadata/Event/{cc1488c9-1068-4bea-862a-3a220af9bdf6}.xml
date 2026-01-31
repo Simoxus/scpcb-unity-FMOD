@@ -5,7 +5,7 @@
 			<value>D_FemurVictim</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{67637f3d-27b9-4107-acf4-feebb6bee1bc}</destination>
@@ -79,10 +79,19 @@
 	<object class="MixerBusPanner" id="{5f6c3c9c-fdd1-4bc2-8cbb-44c9b6d2891f}" />
 	<object class="MixerBusEffectChain" id="{1cc83482-a8fb-412f-afa3-d35eef2f2ec8}">
 		<relationship name="effects">
+			<destination>{2546b2a2-f831-4a7f-8b86-6a4bce139122}</destination>
 			<destination>{66873786-2e49-42d8-9f5a-ba0cbf261929}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{6a23c342-63a3-433b-b0e2-12f4524076c3}" />
 	<object class="MixerBusFader" id="{74a19480-b921-4e03-a57a-a9704b73a722}" />
+	<object class="SpatialiserEffect" id="{2546b2a2-f831-4a7f-8b86-6a4bce139122}">
+		<property name="maximumDistance">
+			<value>55</value>
+		</property>
+		<property name="overrideRange">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{66873786-2e49-42d8-9f5a-ba0cbf261929}" />
 </objects>

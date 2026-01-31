@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{661f776a-3f50-444f-a063-0d81c6421373}">
 		<property name="name">
-			<value>Env_Alarm</value>
+			<value>Alarm</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
@@ -80,6 +80,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{91b96e1e-40ea-4402-909a-22364c86284c}">
+		<property name="volume">
+			<value>-1</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{71cad4ae-a40b-4bc3-947e-cc4a661a80ea}</destination>
 		</relationship>
@@ -105,6 +108,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{574e54f4-ec39-4e34-abba-ad788dae1022}">
+		<property name="volume">
+			<value>3</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -134,7 +140,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{71cad4ae-a40b-4bc3-947e-cc4a661a80ea}">
 		<relationship name="effects">
-			<destination>{2919a9a7-1043-4477-a263-8daec652f7be}</destination>
+			<destination>{765ceec0-f0a0-4e54-b95f-a82966c61410}</destination>
 			<destination>{76010522-e8fe-45bf-90ce-0d31f6771ce8}</destination>
 			<destination>{ccd6102e-b80b-4679-8f95-bdeb380e5df5}</destination>
 		</relationship>
@@ -148,17 +154,20 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{ef9d726d-8ffb-4019-a7d7-7843951a32f7}" />
-	<object class="ProxyEffect" id="{2919a9a7-1043-4477-a263-8daec652f7be}">
+	<object class="ProxyEffect" id="{765ceec0-f0a0-4e54-b95f-a82966c61410}">
 		<property name="inputFormat">
 			<value>1</value>
 		</property>
 		<relationship name="preset">
-			<destination>{9610b18e-f1e1-4804-8656-7fc09d99b0c6}</destination>
+			<destination>{5492afeb-87ff-4309-911b-2d768f9de009}</destination>
 		</relationship>
 	</object>
 	<object class="SpatialiserEffect" id="{76010522-e8fe-45bf-90ce-0d31f6771ce8}">
+		<property name="distanceRolloffType">
+			<value>1</value>
+		</property>
 		<property name="maximumDistance">
-			<value>85</value>
+			<value>15</value>
 		</property>
 		<property name="overrideRange">
 			<value>true</value>

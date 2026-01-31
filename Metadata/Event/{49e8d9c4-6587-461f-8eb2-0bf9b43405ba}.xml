@@ -2,13 +2,13 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{49e8d9c4-6587-461f-8eb2-0bf9b43405ba}">
 		<property name="name">
-			<value>Env_DoorOfficeLever</value>
+			<value>Handle</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
 		</property>
 		<relationship name="folder">
-			<destination>{134b458b-805f-4a60-9666-bf4fb0a7ffd4}</destination>
+			<destination>{40581476-aaad-46bc-a854-3976ac78d979}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{6d19406d-9cbf-43e9-a10e-20b27499389e}</destination>
@@ -98,7 +98,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{ba05b215-5bc9-4314-80d5-feaa483f0523}">
 		<property name="volume">
-			<value>-10.5</value>
+			<value>2.5</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>

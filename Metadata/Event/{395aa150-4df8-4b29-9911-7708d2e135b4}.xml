@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{395aa150-4df8-4b29-9911-7708d2e135b4}">
 		<property name="name">
-			<value>UI_Item_Pick_Misc</value>
+			<value>Item-Pick-Metal</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -115,7 +115,6 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{96556e74-f333-4d9b-a7a2-8a09701b13f1}">
 		<relationship name="effects">
-			<destination>{402883d5-b5f0-43d4-ac3b-674082698e87}</destination>
 			<destination>{7cb3453b-b1a5-4029-b62f-0e4b519cadea}</destination>
 		</relationship>
 	</object>
@@ -127,11 +126,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{8ba05db3-0997-4ad4-a97b-89c7fd4dae08}" />
-	<object class="SFXReverbEffect" id="{402883d5-b5f0-43d4-ac3b-674082698e87}">
-		<property name="decayTime">
-			<value>650</value>
-		</property>
-	</object>
 	<object class="MixerBusFader" id="{7cb3453b-b1a5-4029-b62f-0e4b519cadea}" />
 	<object class="MixerBusFader" id="{8f8e2135-0951-40b7-9ad4-3a14d88b37ad}" />
 </objects>

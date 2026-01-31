@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{d40fc7c1-b1de-4d48-944a-958eaa0afd21}">
 		<property name="assetPath">
-			<value>SFX/Events/lcz_173_intro/PA/5/crew5.ogg</value>
+			<value>SFX/Events/cont-lcz-173-bright/PA/5/crew5.ogg</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

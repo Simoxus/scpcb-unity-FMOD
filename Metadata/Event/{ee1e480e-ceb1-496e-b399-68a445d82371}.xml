@@ -2,13 +2,13 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{ee1e480e-ceb1-496e-b399-68a445d82371}">
 		<property name="name">
-			<value>Loop_Entrance</value>
+			<value>Entrance</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
 		</property>
 		<relationship name="folder">
-			<destination>{3e2708ff-2397-4535-8a24-35359b638a04}</destination>
+			<destination>{9099d04a-d38b-42e5-994c-572c2f7dca4b}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{553c6aa1-0a19-4682-bed7-e89a26086598}</destination>
@@ -80,7 +80,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{afd8e0b7-2811-4864-92c9-800180211be0}">
 		<property name="volume">
-			<value>-21</value>
+			<value>-10</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{b5bfa3ef-180f-4ab5-981c-8ac29f3654be}</destination>
@@ -153,8 +153,8 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{b5bfa3ef-180f-4ab5-981c-8ac29f3654be}">
 		<relationship name="effects">
-			<destination>{0ca1866e-a7c7-406b-8dee-ee71a758d9e9}</destination>
 			<destination>{b638858e-23fc-4252-96d6-4b3dd7e14409}</destination>
+			<destination>{0ca1866e-a7c7-406b-8dee-ee71a758d9e9}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{1d4c2d99-2d80-46b8-9d6b-3e221c1233f5}" />
@@ -233,6 +233,7 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{46049e97-fbd1-442b-b1ad-3a32ad82ba22}" />
+	<object class="MixerBusFader" id="{b638858e-23fc-4252-96d6-4b3dd7e14409}" />
 	<object class="SFXReverbEffect" id="{0ca1866e-a7c7-406b-8dee-ee71a758d9e9}">
 		<property name="decayTime">
 			<value>3800</value>
@@ -241,7 +242,6 @@
 			<value>-8</value>
 		</property>
 	</object>
-	<object class="MixerBusFader" id="{b638858e-23fc-4252-96d6-4b3dd7e14409}" />
 	<object class="AutomationPoint" id="{5053b020-4f54-4bef-8d25-483043326c26}">
 		<property name="position">
 			<value>3.7000000000000002</value>

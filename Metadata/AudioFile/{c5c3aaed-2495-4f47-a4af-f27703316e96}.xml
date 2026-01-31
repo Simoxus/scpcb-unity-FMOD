@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{c5c3aaed-2495-4f47-a4af-f27703316e96}">
 		<property name="assetPath">
-			<value>SFX/SCP/106/106_SinkholeFall.ogg</value>
+			<value>SFX/SCP/106/106_Sinkhole-Fall.ogg</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

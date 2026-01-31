@@ -2,13 +2,13 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{1f859bdc-fee3-4077-a72e-69c9bac5a18c}">
 		<property name="name">
-			<value>Mus_Entrance</value>
+			<value>Entrance</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
 		</property>
 		<relationship name="folder">
-			<destination>{7ae587b8-5a66-42a0-8de8-8d31c717d04e}</destination>
+			<destination>{2b866a45-40d0-4d88-b83c-0c4b245abe2f}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{72290298-80c5-4236-bfba-c86dd308e7d7}</destination>
@@ -78,9 +78,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{a4bddedf-2945-485d-b8b4-d01f4e352d4d}">
-		<property name="volume">
-			<value>-7</value>
-		</property>
 		<relationship name="automators">
 			<destination>{002c305d-f2e2-4433-a6a9-d2b9295e730e}</destination>
 		</relationship>

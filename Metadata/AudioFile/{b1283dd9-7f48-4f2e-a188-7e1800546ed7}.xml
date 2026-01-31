@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{b1283dd9-7f48-4f2e-a188-7e1800546ed7}">
 		<property name="assetPath">
-			<value>SFX/Events/lcz_173_intro/PA/Scripted/announcement1.ogg</value>
+			<value>SFX/Events/cont-lcz-173-bright/PA/Scripted/announcement1.ogg</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

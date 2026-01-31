@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{2974c7c8-fdcd-4b36-a4e3-406e2c06bddd}">
 		<property name="name">
-			<value>Env_Button</value>
+			<value>Button</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
@@ -111,6 +111,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{14db8ff2-30d6-46e7-91c2-a5e960f1ec60}">
+		<property name="volume">
+			<value>10</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -147,9 +150,6 @@
 	<object class="SpatialiserEffect" id="{d4001fe5-dc0a-4c5c-a615-cc4c01e8bfe7}">
 		<property name="maximumDistance">
 			<value>10</value>
-		</property>
-		<property name="overrideRange">
-			<value>true</value>
 		</property>
 		<property name="soundSize">
 			<value>1.20000005</value>

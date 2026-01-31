@@ -2,13 +2,13 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{a11fbe84-baa7-47ee-b3dc-36e8066f3a02}">
 		<property name="name">
-			<value>Env_GateBreak</value>
+			<value>Break</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
-			<destination>{134b458b-805f-4a60-9666-bf4fb0a7ffd4}</destination>
+			<destination>{e9e0a367-8aef-454e-937f-753ef97266f8}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{f12288d0-5d4b-470a-8045-1aa0c2551f42}</destination>
@@ -185,9 +185,9 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{601a3520-3d33-422a-b80e-2e0af275dfa9}">
 		<relationship name="effects">
+			<destination>{63dab54c-889f-400b-8478-22d17537528e}</destination>
 			<destination>{c11d2ca0-3cb1-49ff-9b28-433706d42ba6}</destination>
 			<destination>{dc92595e-9486-4ddf-92ae-f9eaf97eee03}</destination>
-			<destination>{c3f1c4bb-81d9-4637-becf-b25f43890049}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{cde8e934-7650-446f-bdce-a0c3ed41014b}" />
@@ -220,6 +220,11 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{c7da69e8-f52f-451d-902e-142b23691bfc}" />
+	<object class="SpatialiserEffect" id="{63dab54c-889f-400b-8478-22d17537528e}">
+		<property name="distanceRolloffType">
+			<value>1</value>
+		</property>
+	</object>
 	<object class="SFXReverbEffect" id="{c11d2ca0-3cb1-49ff-9b28-433706d42ba6}">
 		<property name="decayTime">
 			<value>3200</value>
@@ -232,14 +237,6 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{dc92595e-9486-4ddf-92ae-f9eaf97eee03}" />
-	<object class="ObjectSpatialiserEffect" id="{c3f1c4bb-81d9-4637-becf-b25f43890049}">
-		<property name="distanceRolloffType">
-			<value>1</value>
-		</property>
-		<property name="maximumDistance">
-			<value>30</value>
-		</property>
-	</object>
 	<object class="AutomationPoint" id="{79e97781-5773-4ef2-9517-c9878b0536f1}">
 		<property name="position">
 			<value>2</value>

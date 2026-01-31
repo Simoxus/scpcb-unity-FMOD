@@ -5,7 +5,7 @@
 			<value>Agent_SexyWhiteGuy</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{67637f3d-27b9-4107-acf4-feebb6bee1bc}</destination>
@@ -79,10 +79,19 @@
 	<object class="MixerBusPanner" id="{2f244ab6-6351-4ecc-a6c4-8b7948a508ce}" />
 	<object class="MixerBusEffectChain" id="{2f51363f-2317-4730-ac1f-01f81b271b2a}">
 		<relationship name="effects">
+			<destination>{ac977655-51a8-4f71-a5cf-1d089c916580}</destination>
 			<destination>{1dab1b49-24d2-4ace-8272-d7d944c0b0fe}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{c5405d78-f6fe-445b-b218-105c0b21cd90}" />
 	<object class="MixerBusFader" id="{b56fd13a-b95d-4d9b-ad57-6aaa9eb70fcc}" />
+	<object class="SpatialiserEffect" id="{ac977655-51a8-4f71-a5cf-1d089c916580}">
+		<property name="maximumDistance">
+			<value>55</value>
+		</property>
+		<property name="overrideRange">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{1dab1b49-24d2-4ace-8272-d7d944c0b0fe}" />
 </objects>

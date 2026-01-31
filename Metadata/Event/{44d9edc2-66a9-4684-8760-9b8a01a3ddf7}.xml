@@ -2,13 +2,13 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{44d9edc2-66a9-4684-8760-9b8a01a3ddf7}">
 		<property name="name">
-			<value>Env_Gate</value>
+			<value>State</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
 		</property>
 		<relationship name="folder">
-			<destination>{134b458b-805f-4a60-9666-bf4fb0a7ffd4}</destination>
+			<destination>{e9e0a367-8aef-454e-937f-753ef97266f8}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{f88eb0ab-3d80-4dd4-847c-e082c4023d06}</destination>

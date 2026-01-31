@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{a86eab39-4235-432c-9f2c-3170ef7cfa79}">
 		<property name="name">
-			<value>Env_Camera</value>
+			<value>Camera</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
@@ -77,7 +77,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{a1adfa3a-d500-4d8f-82cc-520907dad64d}">
 		<property name="volume">
-			<value>-10</value>
+			<value>-2.5</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{6c79b193-dade-47ae-89d1-c716b6dcd3ac}</destination>
@@ -133,7 +133,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{6c79b193-dade-47ae-89d1-c716b6dcd3ac}">
 		<relationship name="effects">
-			<destination>{85818248-c5b2-4d0f-9843-b8faceaa040f}</destination>
+			<destination>{84c9b91e-b1c2-496d-ac42-21c5b23f69b1}</destination>
 			<destination>{1cb031de-c676-449d-bc23-48a6383696b3}</destination>
 			<destination>{aa277df4-d710-4d5f-8b48-cd8c10a4ea8c}</destination>
 		</relationship>
@@ -147,12 +147,12 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{611341f4-9213-488c-a98e-eb1c7f7eb7cc}" />
-	<object class="ProxyEffect" id="{85818248-c5b2-4d0f-9843-b8faceaa040f}">
+	<object class="ProxyEffect" id="{84c9b91e-b1c2-496d-ac42-21c5b23f69b1}">
 		<property name="inputFormat">
 			<value>1</value>
 		</property>
 		<relationship name="preset">
-			<destination>{9610b18e-f1e1-4804-8656-7fc09d99b0c6}</destination>
+			<destination>{5492afeb-87ff-4309-911b-2d768f9de009}</destination>
 		</relationship>
 	</object>
 	<object class="SpatialiserEffect" id="{1cb031de-c676-449d-bc23-48a6383696b3}">
@@ -160,7 +160,7 @@
 			<value>1</value>
 		</property>
 		<property name="maximumDistance">
-			<value>45</value>
+			<value>15</value>
 		</property>
 		<property name="overrideRange">
 			<value>true</value>

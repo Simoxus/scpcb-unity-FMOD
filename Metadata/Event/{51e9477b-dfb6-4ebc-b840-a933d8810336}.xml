@@ -2,13 +2,13 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{51e9477b-dfb6-4ebc-b840-a933d8810336}">
 		<property name="name">
-			<value>Env_GateBroken</value>
+			<value>Broken-Loop</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
 		</property>
 		<relationship name="folder">
-			<destination>{134b458b-805f-4a60-9666-bf4fb0a7ffd4}</destination>
+			<destination>{e9e0a367-8aef-454e-937f-753ef97266f8}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{fa089af6-671f-4019-b830-68060a588146}</destination>
@@ -162,7 +162,6 @@
 	<object class="MixerBusEffectChain" id="{0015c2de-2a16-4c40-bfd6-29bfe6d85862}">
 		<relationship name="effects">
 			<destination>{bc2343ea-4073-44a0-ac9c-f1719ad48dc6}</destination>
-			<destination>{f56e6f2b-c941-40f5-afa1-0227ab899539}</destination>
 			<destination>{c63df629-9242-483f-8629-1bfb032c0de8}</destination>
 			<destination>{779446f9-4402-437d-a711-45bd593d122e}</destination>
 		</relationship>
@@ -179,14 +178,6 @@
 		<property name="overrideRange">
 			<value>true</value>
 		</property>
-	</object>
-	<object class="ProxyEffect" id="{f56e6f2b-c941-40f5-afa1-0227ab899539}">
-		<property name="inputFormat">
-			<value>2</value>
-		</property>
-		<relationship name="preset">
-			<destination>{9610b18e-f1e1-4804-8656-7fc09d99b0c6}</destination>
-		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{c63df629-9242-483f-8629-1bfb032c0de8}" />
 	<object class="SFXReverbEffect" id="{779446f9-4402-437d-a711-45bd593d122e}">

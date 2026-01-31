@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{813d6891-0f9a-4523-8825-a2d40aedb714}">
 		<property name="assetPath">
-			<value>SFX/SCP/173/173_Rattle2.ogg</value>
+			<value>SFX/SCP/173/173_Rattle-2.ogg</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

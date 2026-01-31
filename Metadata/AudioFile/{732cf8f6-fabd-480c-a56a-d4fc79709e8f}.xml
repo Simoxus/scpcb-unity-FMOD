@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{732cf8f6-fabd-480c-a56a-d4fc79709e8f}">
 		<property name="assetPath">
-			<value>SFX/Character/Agent_Sad/SuicideGuard2.ogg</value>
+			<value>SFX/Character/Guards/Brocken/SuicideGuard2.ogg</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

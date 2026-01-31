@@ -2,13 +2,13 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{cad38622-f362-411d-bd82-f44b6510e27a}">
 		<property name="name">
-			<value>Env_DoorOffice</value>
+			<value>State</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
 		</property>
 		<relationship name="folder">
-			<destination>{134b458b-805f-4a60-9666-bf4fb0a7ffd4}</destination>
+			<destination>{40581476-aaad-46bc-a854-3976ac78d979}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{cfed96f6-d0ee-412c-9ce3-9394bcfe1e16}</destination>
@@ -111,6 +111,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{3d49e84e-bbd0-4f29-b888-d44113882568}">
+		<property name="volume">
+			<value>1.5</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -126,8 +129,8 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{f8bb1179-c90a-4a38-9c28-c42edca170a8}">
 		<relationship name="effects">
-			<destination>{3ff20697-7865-4d09-abd4-e59c5b6f4bf0}</destination>
 			<destination>{d873bbdb-03e2-4fec-860a-9a55dac05f80}</destination>
+			<destination>{3ff20697-7865-4d09-abd4-e59c5b6f4bf0}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{cc248751-2253-40e9-85a7-1a991eb978cc}" />
@@ -138,11 +141,14 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{d98a6394-4c10-4d41-961b-a27802e6f112}" />
-	<object class="MixerBusFader" id="{3ff20697-7865-4d09-abd4-e59c5b6f4bf0}" />
 	<object class="SpatialiserEffect" id="{d873bbdb-03e2-4fec-860a-9a55dac05f80}">
 		<property name="maximumDistance">
-			<value>9.19999981</value>
+			<value>7.20000029</value>
+		</property>
+		<property name="overrideRange">
+			<value>true</value>
 		</property>
 	</object>
+	<object class="MixerBusFader" id="{3ff20697-7865-4d09-abd4-e59c5b6f4bf0}" />
 	<object class="MixerBusFader" id="{69511fc5-0b8a-4d77-9ddc-797eae93ed26}" />
 </objects>

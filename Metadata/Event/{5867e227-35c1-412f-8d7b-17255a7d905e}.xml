@@ -2,13 +2,13 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{5867e227-35c1-412f-8d7b-17255a7d905e}">
 		<property name="name">
-			<value>Mus_LightContainment</value>
+			<value>LightContainment</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
 		</property>
 		<relationship name="folder">
-			<destination>{7ae587b8-5a66-42a0-8de8-8d31c717d04e}</destination>
+			<destination>{2b866a45-40d0-4d88-b83c-0c4b245abe2f}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{f33e0ecf-41ea-4d39-86a1-2e668f33314f}</destination>
@@ -78,9 +78,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{4e85bfdb-3dfb-4a2d-ae9a-cc107cd139fe}">
-		<property name="volume">
-			<value>-7</value>
-		</property>
 		<relationship name="automators">
 			<destination>{d1111be2-7d3f-4d07-97cc-8a1ef8f3b7a9}</destination>
 		</relationship>
@@ -132,7 +129,7 @@
 			<value>0</value>
 		</property>
 		<property name="length">
-			<value>197.66857142857143</value>
+			<value>194</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{cb5ab726-987c-4fdb-9aee-65955c6b7009}</destination>
