@@ -23,7 +23,26 @@
 			<destination>{84caea53-f2c2-48df-8307-7023d2a213af}</destination>
 		</relationship>
 		<relationship name="markerTracks">
+			<destination>{94f3b4da-57dd-4db9-8160-0b1aa656706a}</destination>
+			<destination>{04947bdf-2b8d-4f02-8bf9-1470cb45c510}</destination>
+			<destination>{a7612cdb-8ba9-4e25-9d9d-47b4f260625a}</destination>
 			<destination>{aef46cb3-90ea-4d9d-bb2c-eb121ca7c76d}</destination>
+			<destination>{eff0ca22-c2e1-42cd-818a-4256517eb40c}</destination>
+			<destination>{03ebb2f6-c944-4cd3-9a3a-543b4d323f05}</destination>
+			<destination>{428d1b5a-8b06-421b-a6ef-ea0badf74e49}</destination>
+			<destination>{1d678158-aec8-40fb-b55f-30d348562a3d}</destination>
+			<destination>{e5a6cba9-4fc1-42dd-a45f-ee074eecb827}</destination>
+			<destination>{090c1492-5b4d-432a-ad3f-7e60d69fa669}</destination>
+			<destination>{ba20d1ad-3c65-4bef-b0c9-0a07632ce553}</destination>
+			<destination>{152a5d21-8ad3-4089-9b7d-5330315eaa73}</destination>
+			<destination>{238709ec-7d8b-47ab-b9a4-cd886b107b19}</destination>
+			<destination>{acd3c943-74c2-4af9-9f1c-641ac372a024}</destination>
+			<destination>{0c4e2c90-1780-4ed8-a017-6f8b9e732aca}</destination>
+			<destination>{8c35fe29-432e-4a69-9e41-8ac437efbd46}</destination>
+			<destination>{7a014405-efcb-4e3f-afa0-4e41fb6dc57c}</destination>
+			<destination>{a2b1acec-6ecb-4b92-9351-e9d54fc4e429}</destination>
+			<destination>{9057a394-3b8c-4c86-b414-23cd099a324e}</destination>
+			<destination>{39ec57a1-3fd1-4258-ba11-76e226be23ea}</destination>
 		</relationship>
 		<relationship name="groupTracks">
 			<destination>{1193c375-82b7-431b-afc4-647b29779feb}</destination>
@@ -32,7 +51,8 @@
 			<destination>{af5d646d-cd68-46e2-b39e-88b488df710b}</destination>
 		</relationship>
 		<relationship name="banks">
-			<destination>{299a1805-2b51-46e8-b511-819a7cf3c6fe}</destination>
+			<destination>{2563da79-f8a2-4ce5-8d6c-1ccde63d1cc2}</destination>
+			<destination>{9e478696-fd00-45ca-994f-fd15433b4c16}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{79dd9192-2461-403d-b74c-ba191f878ef8}">
@@ -60,7 +80,26 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{84caea53-f2c2-48df-8307-7023d2a213af}" />
+	<object class="MarkerTrack" id="{94f3b4da-57dd-4db9-8160-0b1aa656706a}" />
+	<object class="MarkerTrack" id="{04947bdf-2b8d-4f02-8bf9-1470cb45c510}" />
+	<object class="MarkerTrack" id="{a7612cdb-8ba9-4e25-9d9d-47b4f260625a}" />
 	<object class="MarkerTrack" id="{aef46cb3-90ea-4d9d-bb2c-eb121ca7c76d}" />
+	<object class="MarkerTrack" id="{eff0ca22-c2e1-42cd-818a-4256517eb40c}" />
+	<object class="MarkerTrack" id="{03ebb2f6-c944-4cd3-9a3a-543b4d323f05}" />
+	<object class="MarkerTrack" id="{428d1b5a-8b06-421b-a6ef-ea0badf74e49}" />
+	<object class="MarkerTrack" id="{1d678158-aec8-40fb-b55f-30d348562a3d}" />
+	<object class="MarkerTrack" id="{e5a6cba9-4fc1-42dd-a45f-ee074eecb827}" />
+	<object class="MarkerTrack" id="{090c1492-5b4d-432a-ad3f-7e60d69fa669}" />
+	<object class="MarkerTrack" id="{ba20d1ad-3c65-4bef-b0c9-0a07632ce553}" />
+	<object class="MarkerTrack" id="{152a5d21-8ad3-4089-9b7d-5330315eaa73}" />
+	<object class="MarkerTrack" id="{238709ec-7d8b-47ab-b9a4-cd886b107b19}" />
+	<object class="MarkerTrack" id="{acd3c943-74c2-4af9-9f1c-641ac372a024}" />
+	<object class="MarkerTrack" id="{0c4e2c90-1780-4ed8-a017-6f8b9e732aca}" />
+	<object class="MarkerTrack" id="{8c35fe29-432e-4a69-9e41-8ac437efbd46}" />
+	<object class="MarkerTrack" id="{7a014405-efcb-4e3f-afa0-4e41fb6dc57c}" />
+	<object class="MarkerTrack" id="{a2b1acec-6ecb-4b92-9351-e9d54fc4e429}" />
+	<object class="MarkerTrack" id="{9057a394-3b8c-4c86-b414-23cd099a324e}" />
+	<object class="MarkerTrack" id="{39ec57a1-3fd1-4258-ba11-76e226be23ea}" />
 	<object class="GroupTrack" id="{1193c375-82b7-431b-afc4-647b29779feb}">
 		<relationship name="modules">
 			<destination>{d33b2876-c8d1-4429-9a02-bac99d944afc}</destination>
@@ -75,6 +114,42 @@
 		</relationship>
 		<relationship name="markers">
 			<destination>{b89c7df6-b363-46e1-8ce2-68062e5b6f34}</destination>
+			<destination>{87f8d0b7-5e31-4f55-b83f-406a8f5b3bd0}</destination>
+			<destination>{099a8fd6-0197-4178-ada2-d3c39e7e0a4b}</destination>
+			<destination>{a4beb43c-d33d-4f86-8acf-0901ae275b85}</destination>
+			<destination>{511b3f75-348e-4f00-a632-bf4166a4d207}</destination>
+			<destination>{f31468c2-9d94-476c-a4f4-855289566304}</destination>
+			<destination>{b0fbc5af-816c-427d-b9dc-9aec51c70f15}</destination>
+			<destination>{bc546df6-7ecb-42d2-ad08-83889f31e178}</destination>
+			<destination>{82920083-8576-45f9-bb0c-373f0f17af46}</destination>
+			<destination>{a1c556f1-81ad-4954-b143-3b47a725c342}</destination>
+			<destination>{2a4ad461-9ee8-4aa3-8d9d-501c9170c1ea}</destination>
+			<destination>{8f6db0b7-44a4-4f81-b682-7a35e0a21acc}</destination>
+			<destination>{2f81e806-ac80-4356-89d3-6c4976135167}</destination>
+			<destination>{7eca7514-ddbb-45ba-893e-7eca2be66773}</destination>
+			<destination>{22881057-0a03-406a-9f2e-18038ec41a1a}</destination>
+			<destination>{1a506876-4188-47e3-84d9-a57467b88f29}</destination>
+			<destination>{fdd17735-45cc-4434-bb51-509ed8ee7739}</destination>
+			<destination>{e0379685-f80c-453c-a146-d0da89e066d3}</destination>
+			<destination>{a27c34a0-d6fd-484c-802a-8c89ca6ae2de}</destination>
+			<destination>{f4d594bb-69fd-4cfb-a6af-df2a4f9c14e3}</destination>
+			<destination>{f7284be6-a24e-4299-b893-bedb0821aba0}</destination>
+			<destination>{e427c12f-a34e-46fa-a334-98a03be7cd62}</destination>
+			<destination>{62a19304-818e-474e-91f9-9ec5147108ad}</destination>
+			<destination>{c8955915-7e35-4a74-8114-13dce2bc7f8e}</destination>
+			<destination>{2053b24d-2231-4ffe-b3eb-6b3733896712}</destination>
+			<destination>{450e7593-4952-435d-96ef-14444cfb97e6}</destination>
+			<destination>{73960002-ee57-4d41-92f1-4259953ad681}</destination>
+			<destination>{c4c94819-0334-443b-832e-8849348f9cf9}</destination>
+			<destination>{39bcc817-2deb-4b3a-8dd4-da52ea9eedbf}</destination>
+			<destination>{41372c89-fe87-46b0-a349-80b9299b2a78}</destination>
+			<destination>{5df29873-795f-47bd-984e-1e15866a1af1}</destination>
+			<destination>{d51a6dbc-0dd8-4888-adec-7ccf2da2062d}</destination>
+			<destination>{cabbf7a5-154b-4697-9ddc-d2253fa79aea}</destination>
+			<destination>{2c036126-043b-447d-a19f-1dc8306f8aa7}</destination>
+			<destination>{bbee5a4e-72b5-4a7f-aed1-bc1321950fa4}</destination>
+			<destination>{f3d49576-7260-42fa-9437-76f131265640}</destination>
+			<destination>{8c2dafb4-ee0a-4cc6-89c6-4d08d9db79bb}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{d5943f7a-6295-43aa-91f0-9c05af3da4c9}">
@@ -104,8 +179,11 @@
 	<object class="MixerBusPanner" id="{f1302f75-e75f-4081-9171-58b7e0bb8c74}" />
 	<object class="SingleSound" id="{d33b2876-c8d1-4429-9a02-bac99d944afc}">
 		<property name="length">
-			<value>89.292354166666669</value>
+			<value>64</value>
 		</property>
+		<relationship name="fadeOutCurve">
+			<destination>{cabf0f0c-1dd7-4ede-b3ce-a71e46e443c6}</destination>
+		</relationship>
 		<relationship name="audioFile">
 			<destination>{e1388e2f-8b23-4061-ac1a-aeba10cd8383}</destination>
 		</relationship>
@@ -132,13 +210,517 @@
 			<value>0</value>
 		</property>
 		<property name="length">
-			<value>89.292354166666669</value>
+			<value>64</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{af5d646d-cd68-46e2-b39e-88b488df710b}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{39ec57a1-3fd1-4258-ba11-76e226be23ea}</destination>
+		</relationship>
+	</object>
+	<object class="NamedMarker" id="{87f8d0b7-5e31-4f55-b83f-406a8f5b3bd0}">
+		<property name="position">
+			<value>18.547590808018608</value>
+		</property>
+		<property name="name">
+			<value>subtitle:START:Joke.420J_GLENN-LYRIC-1</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{af5d646d-cd68-46e2-b39e-88b488df710b}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{94f3b4da-57dd-4db9-8160-0b1aa656706a}</destination>
+		</relationship>
+	</object>
+	<object class="NamedMarker" id="{099a8fd6-0197-4178-ada2-d3c39e7e0a4b}">
+		<property name="position">
+			<value>20.651084304871382</value>
+		</property>
+		<property name="name">
+			<value>subtitle:END:Joke.420J_GLENN-LYRIC-1</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{af5d646d-cd68-46e2-b39e-88b488df710b}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{94f3b4da-57dd-4db9-8160-0b1aa656706a}</destination>
+		</relationship>
+	</object>
+	<object class="NamedMarker" id="{a4beb43c-d33d-4f86-8acf-0901ae275b85}">
+		<property name="position">
+			<value>20.592650448139025</value>
+		</property>
+		<property name="name">
+			<value>subtitle:START:Joke.420J_GLENN-LYRIC-2</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{af5d646d-cd68-46e2-b39e-88b488df710b}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{04947bdf-2b8d-4f02-8bf9-1470cb45c510}</destination>
+		</relationship>
+	</object>
+	<object class="NamedMarker" id="{511b3f75-348e-4f00-a632-bf4166a4d207}">
+		<property name="position">
+			<value>22.405662106595514</value>
+		</property>
+		<property name="name">
+			<value>subtitle:END:Joke.420J_GLENN-LYRIC-2</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{af5d646d-cd68-46e2-b39e-88b488df710b}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{04947bdf-2b8d-4f02-8bf9-1470cb45c510}</destination>
+		</relationship>
+	</object>
+	<object class="NamedMarker" id="{f31468c2-9d94-476c-a4f4-855289566304}">
+		<property name="position">
+			<value>22.363102297995347</value>
+		</property>
+		<property name="name">
+			<value>subtitle:START:Joke.420J_GLENN-LYRIC-3</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{af5d646d-cd68-46e2-b39e-88b488df710b}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{a7612cdb-8ba9-4e25-9d9d-47b4f260625a}</destination>
+		</relationship>
+	</object>
+	<object class="NamedMarker" id="{b0fbc5af-816c-427d-b9dc-9aec51c70f15}">
+		<property name="position">
+			<value>24.295481501436786</value>
+		</property>
+		<property name="name">
+			<value>subtitle:END:Joke.420J_GLENN-LYRIC-3</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{af5d646d-cd68-46e2-b39e-88b488df710b}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{a7612cdb-8ba9-4e25-9d9d-47b4f260625a}</destination>
+		</relationship>
+	</object>
+	<object class="NamedMarker" id="{bc546df6-7ecb-42d2-ad08-83889f31e178}">
+		<property name="position">
+			<value>24.295481501436786</value>
+		</property>
+		<property name="name">
+			<value>subtitle:START:Joke.420J_GLENN-LYRIC-4</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{af5d646d-cd68-46e2-b39e-88b488df710b}</destination>
 		</relationship>
 		<relationship name="markerTrack">
 			<destination>{aef46cb3-90ea-4d9d-bb2c-eb121ca7c76d}</destination>
+		</relationship>
+	</object>
+	<object class="NamedMarker" id="{82920083-8576-45f9-bb0c-373f0f17af46}">
+		<property name="position">
+			<value>25.742891030377674</value>
+		</property>
+		<property name="name">
+			<value>subtitle:END:Joke.420J_GLENN-LYRIC-4</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{af5d646d-cd68-46e2-b39e-88b488df710b}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{aef46cb3-90ea-4d9d-bb2c-eb121ca7c76d}</destination>
+		</relationship>
+	</object>
+	<object class="NamedMarker" id="{a1c556f1-81ad-4954-b143-3b47a725c342}">
+		<property name="position">
+			<value>25.742891030377674</value>
+		</property>
+		<property name="name">
+			<value>subtitle:START:Joke.420J_GLENN-LYRIC-5</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{af5d646d-cd68-46e2-b39e-88b488df710b}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{eff0ca22-c2e1-42cd-818a-4256517eb40c}</destination>
+		</relationship>
+	</object>
+	<object class="NamedMarker" id="{2a4ad461-9ee8-4aa3-8d9d-501c9170c1ea}">
+		<property name="position">
+			<value>27.813011658456485</value>
+		</property>
+		<property name="name">
+			<value>subtitle:END:Joke.420J_GLENN-LYRIC-5</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{af5d646d-cd68-46e2-b39e-88b488df710b}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{eff0ca22-c2e1-42cd-818a-4256517eb40c}</destination>
+		</relationship>
+	</object>
+	<object class="NamedMarker" id="{8f6db0b7-44a4-4f81-b682-7a35e0a21acc}">
+		<property name="position">
+			<value>27.813011658456485</value>
+		</property>
+		<property name="name">
+			<value>subtitle:START:Joke.420J_GLENN-LYRIC-6</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{af5d646d-cd68-46e2-b39e-88b488df710b}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{03ebb2f6-c944-4cd3-9a3a-543b4d323f05}</destination>
+		</relationship>
+	</object>
+	<object class="NamedMarker" id="{2f81e806-ac80-4356-89d3-6c4976135167}">
+		<property name="position">
+			<value>29.670270570778598</value>
+		</property>
+		<property name="name">
+			<value>subtitle:END:Joke.420J_GLENN-LYRIC-6</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{af5d646d-cd68-46e2-b39e-88b488df710b}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{03ebb2f6-c944-4cd3-9a3a-543b4d323f05}</destination>
+		</relationship>
+	</object>
+	<object class="NamedMarker" id="{7eca7514-ddbb-45ba-893e-7eca2be66773}">
+		<property name="position">
+			<value>29.670270570778598</value>
+		</property>
+		<property name="name">
+			<value>subtitle:START:Joke.420J_GLENN-LYRIC-7</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{af5d646d-cd68-46e2-b39e-88b488df710b}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{428d1b5a-8b06-421b-a6ef-ea0badf74e49}</destination>
+		</relationship>
+	</object>
+	<object class="NamedMarker" id="{22881057-0a03-406a-9f2e-18038ec41a1a}">
+		<property name="position">
+			<value>31.103493496852764</value>
+		</property>
+		<property name="name">
+			<value>subtitle:END:Joke.420J_GLENN-LYRIC-7</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{af5d646d-cd68-46e2-b39e-88b488df710b}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{428d1b5a-8b06-421b-a6ef-ea0badf74e49}</destination>
+		</relationship>
+	</object>
+	<object class="NamedMarker" id="{1a506876-4188-47e3-84d9-a57467b88f29}">
+		<property name="position">
+			<value>31.103493496852764</value>
+		</property>
+		<property name="name">
+			<value>subtitle:START:Joke.420J_GLENN-LYRIC-8</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{af5d646d-cd68-46e2-b39e-88b488df710b}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{1d678158-aec8-40fb-b55f-30d348562a3d}</destination>
+		</relationship>
+	</object>
+	<object class="NamedMarker" id="{fdd17735-45cc-4434-bb51-509ed8ee7739}">
+		<property name="position">
+			<value>33.103493496852757</value>
+		</property>
+		<property name="name">
+			<value>subtitle:END:Joke.420J_GLENN-LYRIC-8</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{af5d646d-cd68-46e2-b39e-88b488df710b}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{1d678158-aec8-40fb-b55f-30d348562a3d}</destination>
+		</relationship>
+	</object>
+	<object class="NamedMarker" id="{e0379685-f80c-453c-a146-d0da89e066d3}">
+		<property name="position">
+			<value>40.595150279659279</value>
+		</property>
+		<property name="name">
+			<value>subtitle:START:Joke.420J_GLENN-LYRIC-9</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{af5d646d-cd68-46e2-b39e-88b488df710b}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{e5a6cba9-4fc1-42dd-a45f-ee074eecb827}</destination>
+		</relationship>
+	</object>
+	<object class="NamedMarker" id="{a27c34a0-d6fd-484c-802a-8c89ca6ae2de}">
+		<property name="position">
+			<value>43.211174270491242</value>
+		</property>
+		<property name="name">
+			<value>subtitle:END:Joke.420J_GLENN-LYRIC-9</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{af5d646d-cd68-46e2-b39e-88b488df710b}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{e5a6cba9-4fc1-42dd-a45f-ee074eecb827}</destination>
+		</relationship>
+	</object>
+	<object class="NamedMarker" id="{f4d594bb-69fd-4cfb-a6af-df2a4f9c14e3}">
+		<property name="position">
+			<value>43.211174270491242</value>
+		</property>
+		<property name="name">
+			<value>subtitle:START:Joke.420J_GLENN-LYRIC-10</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{af5d646d-cd68-46e2-b39e-88b488df710b}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{090c1492-5b4d-432a-ad3f-7e60d69fa669}</destination>
+		</relationship>
+	</object>
+	<object class="NamedMarker" id="{f7284be6-a24e-4299-b893-bedb0821aba0}">
+		<property name="position">
+			<value>44.65858379943213</value>
+		</property>
+		<property name="name">
+			<value>subtitle:END:Joke.420J_GLENN-LYRIC-10</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{af5d646d-cd68-46e2-b39e-88b488df710b}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{090c1492-5b4d-432a-ad3f-7e60d69fa669}</destination>
+		</relationship>
+	</object>
+	<object class="NamedMarker" id="{e427c12f-a34e-46fa-a334-98a03be7cd62}">
+		<property name="position">
+			<value>44.65858379943213</value>
+		</property>
+		<property name="name">
+			<value>subtitle:START:Joke.420J_GLENN-LYRIC-11</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{af5d646d-cd68-46e2-b39e-88b488df710b}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{ba20d1ad-3c65-4bef-b0c9-0a07632ce553}</destination>
+		</relationship>
+	</object>
+	<object class="NamedMarker" id="{62a19304-818e-474e-91f9-9ec5147108ad}">
+		<property name="position">
+			<value>46.588463171353311</value>
+		</property>
+		<property name="name">
+			<value>subtitle:END:Joke.420J_GLENN-LYRIC-11</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{af5d646d-cd68-46e2-b39e-88b488df710b}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{ba20d1ad-3c65-4bef-b0c9-0a07632ce553}</destination>
+		</relationship>
+	</object>
+	<object class="NamedMarker" id="{c8955915-7e35-4a74-8114-13dce2bc7f8e}">
+		<property name="position">
+			<value>46.588463171353311</value>
+		</property>
+		<property name="name">
+			<value>subtitle:START:Joke.420J_GLENN-LYRIC-12</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{af5d646d-cd68-46e2-b39e-88b488df710b}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{152a5d21-8ad3-4089-9b7d-5330315eaa73}</destination>
+		</relationship>
+	</object>
+	<object class="NamedMarker" id="{2053b24d-2231-4ffe-b3eb-6b3733896712}">
+		<property name="position">
+			<value>48.417348877941983</value>
+		</property>
+		<property name="name">
+			<value>subtitle:END:Joke.420J_GLENN-LYRIC-12</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{af5d646d-cd68-46e2-b39e-88b488df710b}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{152a5d21-8ad3-4089-9b7d-5330315eaa73}</destination>
+		</relationship>
+	</object>
+	<object class="NamedMarker" id="{450e7593-4952-435d-96ef-14444cfb97e6}">
+		<property name="position">
+			<value>48.417348877941983</value>
+		</property>
+		<property name="name">
+			<value>subtitle:START:Joke.420J_GLENN-LYRIC-13</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{af5d646d-cd68-46e2-b39e-88b488df710b}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{238709ec-7d8b-47ab-b9a4-cd886b107b19}</destination>
+		</relationship>
+	</object>
+	<object class="NamedMarker" id="{73960002-ee57-4d41-92f1-4259953ad681}">
+		<property name="position">
+			<value>50.403162275075253</value>
+		</property>
+		<property name="name">
+			<value>subtitle:END:Joke.420J_GLENN-LYRIC-13</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{af5d646d-cd68-46e2-b39e-88b488df710b}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{238709ec-7d8b-47ab-b9a4-cd886b107b19}</destination>
+		</relationship>
+	</object>
+	<object class="NamedMarker" id="{c4c94819-0334-443b-832e-8849348f9cf9}">
+		<property name="position">
+			<value>50.403162275075253</value>
+		</property>
+		<property name="name">
+			<value>subtitle:START:Joke.420J_GLENN-LYRIC-14</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{af5d646d-cd68-46e2-b39e-88b488df710b}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{acd3c943-74c2-4af9-9f1c-641ac372a024}</destination>
+		</relationship>
+	</object>
+	<object class="NamedMarker" id="{39bcc817-2deb-4b3a-8dd4-da52ea9eedbf}">
+		<property name="position">
+			<value>51.83888503266968</value>
+		</property>
+		<property name="name">
+			<value>subtitle:END:Joke.420J_GLENN-LYRIC-14</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{af5d646d-cd68-46e2-b39e-88b488df710b}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{acd3c943-74c2-4af9-9f1c-641ac372a024}</destination>
+		</relationship>
+	</object>
+	<object class="NamedMarker" id="{41372c89-fe87-46b0-a349-80b9299b2a78}">
+		<property name="position">
+			<value>51.83888503266968</value>
+		</property>
+		<property name="name">
+			<value>subtitle:START:Joke.420J_GLENN-LYRIC-15</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{af5d646d-cd68-46e2-b39e-88b488df710b}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{0c4e2c90-1780-4ed8-a017-6f8b9e732aca}</destination>
+		</relationship>
+	</object>
+	<object class="NamedMarker" id="{5df29873-795f-47bd-984e-1e15866a1af1}">
+		<property name="position">
+			<value>53.22286104183771</value>
+		</property>
+		<property name="name">
+			<value>subtitle:END:Joke.420J_GLENN-LYRIC-15</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{af5d646d-cd68-46e2-b39e-88b488df710b}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{0c4e2c90-1780-4ed8-a017-6f8b9e732aca}</destination>
+		</relationship>
+	</object>
+	<object class="NamedMarker" id="{d51a6dbc-0dd8-4888-adec-7ccf2da2062d}">
+		<property name="position">
+			<value>53.22286104183771</value>
+		</property>
+		<property name="name">
+			<value>subtitle:START:Joke.420J_GLENN-LYRIC-16</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{af5d646d-cd68-46e2-b39e-88b488df710b}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{8c35fe29-432e-4a69-9e41-8ac437efbd46}</destination>
+		</relationship>
+	</object>
+	<object class="NamedMarker" id="{cabbf7a5-154b-4697-9ddc-d2253fa79aea}">
+		<property name="position">
+			<value>55.873945346709093</value>
+		</property>
+		<property name="name">
+			<value>subtitle:END:Joke.420J_GLENN-LYRIC-16</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{af5d646d-cd68-46e2-b39e-88b488df710b}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{8c35fe29-432e-4a69-9e41-8ac437efbd46}</destination>
+		</relationship>
+	</object>
+	<object class="NamedMarker" id="{2c036126-043b-447d-a19f-1dc8306f8aa7}">
+		<property name="position">
+			<value>57.222861041837717</value>
+		</property>
+		<property name="name">
+			<value>subtitle:START:Joke.420J_GLENN-LYRIC-17</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{af5d646d-cd68-46e2-b39e-88b488df710b}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{7a014405-efcb-4e3f-afa0-4e41fb6dc57c}</destination>
+		</relationship>
+	</object>
+	<object class="NamedMarker" id="{bbee5a4e-72b5-4a7f-aed1-bc1321950fa4}">
+		<property name="position">
+			<value>59.525029651580468</value>
+		</property>
+		<property name="name">
+			<value>subtitle:END:Joke.420J_GLENN-LYRIC-17</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{af5d646d-cd68-46e2-b39e-88b488df710b}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{7a014405-efcb-4e3f-afa0-4e41fb6dc57c}</destination>
+		</relationship>
+	</object>
+	<object class="NamedMarker" id="{f3d49576-7260-42fa-9437-76f131265640}">
+		<property name="position">
+			<value>59.525029651580468</value>
+		</property>
+		<property name="name">
+			<value>subtitle:START:Joke.420J_GLENN-LYRIC-18</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{af5d646d-cd68-46e2-b39e-88b488df710b}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{a2b1acec-6ecb-4b92-9351-e9d54fc4e429}</destination>
+		</relationship>
+	</object>
+	<object class="NamedMarker" id="{8c2dafb4-ee0a-4cc6-89c6-4d08d9db79bb}">
+		<property name="position">
+			<value>61.168614461891082</value>
+		</property>
+		<property name="name">
+			<value>subtitle:END:Joke.420J_GLENN-LYRIC-18</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{af5d646d-cd68-46e2-b39e-88b488df710b}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{a2b1acec-6ecb-4b92-9351-e9d54fc4e429}</destination>
 		</relationship>
 	</object>
 	<object class="Automator" id="{2b98f81a-2578-453f-a828-fdacf5256ca9}">
@@ -156,6 +738,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{ac3eeec4-1f17-4575-ac63-85b5074249c2}" />
 	<object class="MixerBusFader" id="{6cf21aba-dd3f-4b0b-9ed0-50429f7c233c}" />
+	<object class="FadeCurve" id="{cabf0f0c-1dd7-4ede-b3ce-a71e46e443c6}">
+		<relationship name="startPoint">
+			<destination>{25a13b63-9b04-4fd7-a757-54704abcbb0d}</destination>
+		</relationship>
+		<relationship name="endPoint">
+			<destination>{0050bc07-1326-4f35-8d7c-040672fd25fe}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{c3d81b3e-5b0d-4ede-ade8-5a816e426f59}">
 		<relationship name="effects">
 			<destination>{12b1cea8-ae2d-4218-8471-de529a56ead7}</destination>
@@ -188,6 +778,25 @@
 		</property>
 		<property name="dryLevel">
 			<value>8</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{25a13b63-9b04-4fd7-a757-54704abcbb0d}">
+		<property name="position">
+			<value>62</value>
+		</property>
+		<property name="value">
+			<value>1</value>
+		</property>
+		<property name="curveShape">
+			<value>0.0673954189</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{0050bc07-1326-4f35-8d7c-040672fd25fe}">
+		<property name="position">
+			<value>64</value>
+		</property>
+		<property name="value">
+			<value>0</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{12b1cea8-ae2d-4218-8471-de529a56ead7}" />
